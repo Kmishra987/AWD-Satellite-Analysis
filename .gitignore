@@ -1,0 +1,22 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs
+outputs/models/*
+outputs/metrics/*
+outputs/plots/*
+
+# Processed/generated datasets
+data/processed/*
+
+# Local IoT data
+data/raw/iot.csv
