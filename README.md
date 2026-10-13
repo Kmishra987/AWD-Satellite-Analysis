@@ -32,6 +32,38 @@ The current implementation focuses on satellite data processing, temporal featur
 - Scikit-learn
 - Joblib
 
+
+
+## 📊 Satellite Analysis Results
+
+These plots visualize satellite-derived vegetation indices and Sentinel-1 radar backscatter measurements over the observation period.
+
+### 1. NDVI — Normalized Difference Vegetation Index
+
+NDVI helps examine vegetation greenness and changes over time.
+
+![NDVI Mean Time Series](./images/ndvi_mean_timeseries.png)
+
+### 2. NDWI — Normalized Difference Water Index
+
+NDWI provides an optical indicator related to water content and surface moisture conditions.
+
+![NDWI Mean Time Series](./images/ndwi_mean_timeseries.png)
+
+### 3. Sentinel-1 VV Backscatter
+
+VV backscatter helps analyze changes in surface and vegetation conditions.
+
+![VV Mean Time Series](./images/vv_mean_timeseries.png)
+
+### 4. Sentinel-1 VH Backscatter
+
+VH backscatter provides complementary information about vegetation structure and surface scattering.
+
+![VH Mean Time Series](./images/vh_mean_timeseries.png)
+
+**Note:** These plots show satellite-derived indicators, not independently verified AWD classifications. Ground measurements and validated labels are needed to assess AWD detection performance.
+
 ## Project Structure
 
 ```text
