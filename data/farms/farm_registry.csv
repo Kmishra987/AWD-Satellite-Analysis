@@ -1,1 +1,2 @@
-farm_id,farmer_id
+farm_id,latitude,longitude
+FARM001,22.13355,84.88053

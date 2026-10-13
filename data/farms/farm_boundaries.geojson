@@ -1,1 +1,23 @@
-{ "type": "FeatureCollection", "features": [] }
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "farm_id": "FARM001"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [84.87750, 22.13150],
+            [84.88350, 22.13150],
+            [84.88350, 22.13550],
+            [84.87750, 22.13550],
+            [84.87750, 22.13150]
+          ]
+        ]
+      }
+    }
+  ]
+}
